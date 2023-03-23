@@ -1,0 +1,11 @@
+body{
+    border: 2px dotted rgb(58, 54, 84);
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#key{
+    padding:10px;
+}
