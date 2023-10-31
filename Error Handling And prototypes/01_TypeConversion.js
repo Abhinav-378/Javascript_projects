@@ -1,11 +1,17 @@
 function convertToNumber(str){
     let a= Number(str);
-
-    if (!isNaN(a)) {
-        console.log("Valid Number");
-    } else {
-        console.log("Invalid Number");
+    try {
+        if (!isNaN(a)) {
+            console.log("Valid Number");
+        }
+        else {
+            throw "Invalid Number"
+        }
+    } catch (e) {
+        console.log(e);
     }
+
+     
 }
 
 convertToNumber('abc')
